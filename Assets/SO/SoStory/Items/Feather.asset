@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032a1fcb17c1ae14f8e120322cd8cb49, type: 3}
+  m_Name: Feather
+  m_EditorClassIdentifier: 
+  Pages:
+  - PageIndex: 0
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: -4087163860165520000, guid: 56c539ec94610ef4f98c3b82e01ca9b3, type: 3}
+    text: Pick up the feather?
+    options: []
+  - PageIndex: 1
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: 
+    options:
+    - text: Yes
+      nextPage: 2
+    - text: No
+      nextPage: 3
+  - PageIndex: 2
+    IsLastPage: 1
+    methodName: PickupFeather
+    Portrait: {fileID: 0}
+    text: Picked up feather.
+    options: []
+  - PageIndex: 3
+    IsLastPage: 1
+    methodName: 
+    Portrait: {fileID: 0}
+    text: Didn't pick up feather.
+    options: []

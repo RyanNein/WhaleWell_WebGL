@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032a1fcb17c1ae14f8e120322cd8cb49, type: 3}
+  m_Name: ShadyHasPlant
+  m_EditorClassIdentifier: 
+  Pages:
+  - PageIndex: 0
+    IsLastPage: 0
+    methodName: RemovePlant
+    Portrait: {fileID: 1673084430, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: This plant was grown here inside Whale Well?
+    options: []
+  - PageIndex: 1
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: -1850603393, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: Quack.
+    options: []
+  - PageIndex: 2
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 1673084430, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: Incredible. This plant is a symbol of a greater future for The Great One.
+    options: []
+  - PageIndex: 3
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 1673084430, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: With this we can all convert to new forms of energy.
+    options: []
+  - PageIndex: 4
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 1673084430, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: The Great One needs healing.
+    options: []
+  - PageIndex: 5
+    IsLastPage: 0
+    methodName: PickupMedkit
+    Portrait: {fileID: 1673084430, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: Take this med kit to the deep factory and save The Great One.
+    options: []

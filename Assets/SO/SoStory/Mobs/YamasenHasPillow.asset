@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032a1fcb17c1ae14f8e120322cd8cb49, type: 3}
+  m_Name: YamasenHasPillow
+  m_EditorClassIdentifier: 
+  Pages:
+  - PageIndex: 0
+    IsLastPage: 0
+    methodName: RemovePillow
+    Portrait: {fileID: -844627274, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: You brought me a pillow, thank you!
+    options: []
+  - PageIndex: 1
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: This will make my home way more cozy.
+    options: []
+  - PageIndex: 2
+    IsLastPage: 0
+    methodName: PickupLiveFish
+    Portrait: {fileID: 0}
+    text: Here, take these goldfish.
+    options: []
+  - PageIndex: 3
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: Take good care of them.
+    options: []

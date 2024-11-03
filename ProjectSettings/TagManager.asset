@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Item
+  - Mob
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Global
+  - FloorOne
+  - FloorTwo
+  - Interactive
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3445030957
+    locked: 1
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Forground
+    uniqueID: 4249140497
+    locked: 0
+  - name: Overlay
+    uniqueID: 245877689
+    locked: 0
+  - name: Menu
+    uniqueID: 1635418173
+    locked: 0
+  - name: CameraUI
+    uniqueID: 1898522751
+    locked: 0
+  - name: CutScene
+    uniqueID: 3294300991
+    locked: 0

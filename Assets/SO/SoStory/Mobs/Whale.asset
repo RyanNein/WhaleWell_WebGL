@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032a1fcb17c1ae14f8e120322cd8cb49, type: 3}
+  m_Name: Whale
+  m_EditorClassIdentifier: 
+  Pages:
+  - PageIndex: 0
+    IsLastPage: 0
+    methodName: PlayWhaleNoise
+    Portrait: {fileID: -739146441, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: It hurts... so much...
+    options: []
+  - PageIndex: 1
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: I think I ate something I shouldn't have.
+    options: []
+  - PageIndex: 2
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: What do I do? Duck, can you help me?
+    options: []
+  - PageIndex: 3
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: Come on, just go inside my stomach and see what's wrong.
+    options: []
+  - PageIndex: 4
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: 
+    options:
+    - text: Yes
+      nextPage: 5
+    - text: No
+      nextPage: 7
+  - PageIndex: 5
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: -1850603393, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: Quack.
+    options: []
+  - PageIndex: 6
+    IsLastPage: 1
+    methodName: SceneFall
+    Portrait: {fileID: -739146441, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: Thank you.
+    options: []
+  - PageIndex: 7
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: -1850603393, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: Quack.
+    options: []
+  - PageIndex: 8
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: -739146441, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: Ah, come on!
+    options: []

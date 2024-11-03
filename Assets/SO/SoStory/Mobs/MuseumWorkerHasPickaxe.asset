@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032a1fcb17c1ae14f8e120322cd8cb49, type: 3}
+  m_Name: MuseumWorkerHasPickaxe
+  m_EditorClassIdentifier: 
+  Pages:
+  - PageIndex: 0
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 1619009866, guid: dd6e771206e97cc4a8ce0d79e9a261d1, type: 3}
+    text: This pickaxe marks the end of an era.
+    options: []
+  - PageIndex: 1
+    IsLastPage: 0
+    methodName: RemovePickaxe
+    Portrait: {fileID: 0}
+    text: This is the end of the era of harvesting The Great One for meat and oil.
+    options: []
+  - PageIndex: 2
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: And this is the beginning of a symbiotic relationship.
+    options: []
+  - PageIndex: 3
+    IsLastPage: 0
+    methodName: PickupContract
+    Portrait: {fileID: 0}
+    text: Here, this is a contract that marks the occasion.
+    options: []
+  - PageIndex: 4
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: Take it to The Great One.
+    options: []
+  - PageIndex: 5
+    IsLastPage: 0
+    methodName: 
+    Portrait: {fileID: 0}
+    text: "I\u2019m sure he will be pleased."
+    options: []
